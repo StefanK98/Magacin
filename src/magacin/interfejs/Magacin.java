@@ -51,6 +51,7 @@ public class Magacin implements MagacinInterface {
 			if(art.getSifra()==sifra)
 				return art;
 		}
+		System.out.println("Artikal se ne nalazi u magacinu!");
 		return null;
 	}
 
